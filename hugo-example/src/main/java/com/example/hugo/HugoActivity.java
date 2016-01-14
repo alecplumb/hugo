@@ -35,7 +35,7 @@ public class HugoActivity extends Activity {
   }
 
   @DebugLog
-  private int fibonacci(int number) {
+  int fibonacci(int number) {
     if (number <= 0) {
       throw new IllegalArgumentException("Number must be greater than zero.");
     }
